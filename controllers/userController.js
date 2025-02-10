@@ -1,7 +1,7 @@
 const express = require('express')
 const db = require("../models/db")
-const bcrypt = require("bcrypt");
-const constants = require("../config/constants");
+const bcrypt = require("bcrypt")
+const constants = require("../config/constants")
 
 exports.getUserByUsername = async (req, res) => {
     const username = req.query.username
